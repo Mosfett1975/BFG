@@ -4,9 +4,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SeleniumWebDriverInit {
+public abstract class SeleniumWebDriverInit {
 
     public ChromeDriver driver;
+    public  String mainPage ="http://46.101.59.136";
 
     @Before
     public void setUp() {
