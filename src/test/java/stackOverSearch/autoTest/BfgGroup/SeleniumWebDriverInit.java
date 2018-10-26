@@ -13,7 +13,7 @@ public abstract class SeleniumWebDriverInit {
 
     @Before
     public void setUp() {
-        String pathToChromeDriver = Paths.get("/Project/BFG/chromedriver/chromedriver.exe").toAbsolutePath().toString();
+        String pathToChromeDriver = Paths.get("./chromedriver/chromedriver.exe").toAbsolutePath().toString();
         System.setProperty("webdriver.chrome.driver",pathToChromeDriver);
         driver = new ChromeDriver();
 
