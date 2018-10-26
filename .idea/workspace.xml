@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03baf85a-f341-4234-8514-407936d2fc7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="03baf85a-f341-4234-8514-407936d2fc7a" name="Default" comment="Added path to chromedriver">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/SeleniumWebDriverInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/SeleniumWebDriverInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/reference/mainScreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stackOverSearch/autoTest/BfgGroup/SeleniumWebDriverInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stackOverSearch/autoTest/BfgGroup/SeleniumWebDriverInit.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,7 +27,7 @@
       <file leaf-file-name="MainPageLayoutCheck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/MainPageLayoutCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="255">
               <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,7 +39,7 @@
       <file leaf-file-name="ChechWidthOfPicture.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/ChechWidthOfPicture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="68">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChechHeightOfCenterBlock.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChechHeightOfCenterBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/ChechHeightOfCenterBlock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeleniumWebDriverInit.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SeleniumWebDriverInit.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/SeleniumWebDriverInit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -156,6 +149,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,8 +189,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,8 +399,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540365192601</updated>
-      <workItem from="1540483813848" duration="5423000" />
+      <workItem from="1540483813848" duration="6172000" />
+      <workItem from="1540532376444" duration="574000" />
     </task>
+    <task id="LOCAL-00001" summary="Added path to chromedriver">
+      <created>1540492481901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540492481901</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -443,7 +445,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5423000" />
+    <option name="totallyTimeSpent" value="6746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -451,20 +453,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.17447917" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32946146" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.18020834" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -477,6 +478,7 @@
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32946146" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,12 +487,63 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added path to chromedriver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added path to chromedriver" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/MainPageLayoutCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/ChechWidthOfPicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/SeleniumWebDriverInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/ChechHeightOfCenterBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -691,7 +744,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/WebElement.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/MainPageLayoutCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="255">
           <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -711,8 +764,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/ChechWidthOfPicture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/ChechHeightOfCenterBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -723,16 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stackOverSearch/autoTest/BfgGroup/ChechHeightOfCenterBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
