@@ -20,7 +20,7 @@ public class MainPageTakeScreenShot extends SeleniumWebDriverInit{
         driver.get(mainPage);
         new WebDriverWait(driver, 10).until(ExpectedConditions.titleContains("StackOverSearch - новый запрос"));
         Screenshot myScreenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(10)).takeScreenshot(driver);
-        ImageIO.write(myScreenshot.getImage(),"PNG",new File("./target/screenshots/reference/mainScreen.png"));
+        ImageIO.write(myScreenshot.getImage(),"PNG",new File("./screens/mainScreen.png"));
 
     }
 }
