@@ -34,6 +34,7 @@ public class CentralBlockChecks extends SeleniumWebDriverInit {
    }
 
    @Test
+   //For this test you have to set graphics resolution as 1920x1080 or take new screenshot
    public void CentralBlockLayout() throws Exception {
        driver.get(mainPage);
        BufferedImage expectedImage = ImageIO.read(new File("./screens/mainScreen.png"));
@@ -248,6 +249,7 @@ public class CentralBlockChecks extends SeleniumWebDriverInit {
         driver.findElement(By.xpath("/html/body/center/div/div/div/center/form/div/div[3]/input")).click();
 
         //Check number of results and compare layout with picture
+        //For this test you have to set graphics resolution as 1920x1080 or take new screenshot
         BufferedImage expectedImage = ImageIO.read(new File("./screens/search25intitle.png"));
         Screenshot ResultOfSearch = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(10)).takeScreenshot(driver);
         BufferedImage actualImage = ResultOfSearch.getImage();

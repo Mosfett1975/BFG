@@ -23,7 +23,7 @@ public abstract class SeleniumWebDriverInit {
             driver = new ChromeDriver();}
         driver.manage().window().maximize();
 
-        //Browser.getInstance();
+
 
 
     }
