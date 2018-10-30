@@ -56,7 +56,7 @@ public class CentralBlockChecks extends SeleniumWebDriverInit {
     public  void CentralBlockBorderColor() {
        driver.get(mainPage);
        assertTrue(driver.findElement(By.xpath("/html/body/center/div/div")).getCssValue("border-color").equalsIgnoreCase( "rgb(36, 206, 234)" ));
-       //System.out.println(driver.findElement(By.xpath("/html/body/center/div/div")).getCssValue("border-color"));
+
    }
 
    @Test
@@ -193,7 +193,7 @@ public class CentralBlockChecks extends SeleniumWebDriverInit {
     public  void FormControlBorderColor() {
         driver.get(mainPage);
         assertTrue(driver.findElement(By.xpath("//*[@id=\"intitle\"]")).getCssValue("border-bottom-color").equalsIgnoreCase( "rgba(36, 206, 234, 1)"));
-        //System.out.println(driver.findElement(By.xpath("//*[@id=\"intitle\"]")).getCssValue("border-bottom-color"));
+
     }
 
     @Test
