@@ -1,1 +1,1 @@
-Several samples of using Webdriver and Ashot
+Several examples of using Webdriver and Ashot
